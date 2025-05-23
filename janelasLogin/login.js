@@ -52,7 +52,7 @@ export default function Login({ navigation }) {
             <Text style={estilo.link}>Não possuo cadastro</Text>
       </TouchableOpacity>
       </View>
-      <TouchableOpacity onPress={() => navigation.navigate('telausuario')}>
+      <TouchableOpacity onPress={Acesso}>
         <Text style={estilo.botaoLogin}>Login</Text>  
       </TouchableOpacity>
     </View>
